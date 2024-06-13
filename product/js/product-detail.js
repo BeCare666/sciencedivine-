@@ -65,7 +65,7 @@ if (productData) {
     theCardDetail6.src = photoDataUrl1;
     theCardDetail7.src = photoDataUrl2;
     theCardDetail8.src = photoDataUrl3;
-    OldPrice.innerHTML = `${productData.PrixNormo} FCFA` 
+    OldPrice.innerHTML = `${productData.PrixPromo} FCFA` 
     NewPrice.innerHTML = `${productData.PrixPromo} FCFA` 
     DescriptionProduct.innerHTML = `${productData.Genboxtextarea}`
     TypeCateId.innerHTML = `${productData.Category}`
@@ -84,7 +84,7 @@ if (productData) {
    // function to add product
    var jsaddcartdetail = document.getElementById('js-addcart-detailId');
    jsaddcartdetail.innerHTML = `
-   <p onclick="addToCart('${productData.Idproduct}', '${productData.NameOfstd}', '${productData.Prix}', '${photoDataUrl}')">Add to card</p>
+   <p onclick="addToCart('${productData.Idproduct}', '${productData.NameOfstd}', '${productData.PrixPromo}', '${photoDataUrl}')">Add to card</p>
    `
 
 
