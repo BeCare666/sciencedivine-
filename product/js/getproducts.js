@@ -388,7 +388,7 @@
                var contact_science = document.getElementById('Contact_science');
                //tableOfPrice.push(Q.price)
                console.log(Q.name) 
-               contact_science.innerHTML = `<a href="https://wa.me/+22997271266?text=Salut Science%20Divine%20comment%20allez-vous?20%Je%20suis%20vraiment%20intéressé%20par%20cet article%20que%20j'ai%20vu%20sur%20votre%20site. J'aimerais en savoir plus s'ils vous plaît.%20${encodeURIComponent('https://illicolove.com/userdetails&.html?id=' + `${Q.id}`)}" 
+               contact_science.innerHTML = `<a href="https://wa.me/+22997271266?text=Salut Science%20Divine%20comment%20allez-vous?%20Je%20suis%20vraiment%20intéressé%20par%20cet article%20que%20j'ai%20vu%20sur%20votre%20site. J'aimerais en savoir plus s'ils vous plaît.%20${encodeURIComponent('https://sciencedivine.netlify.app/product/product-detail.html?id=' + `${Q.id}`)}" 
 				style="background-color: blue !important;" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
 				Contactez les
 				</a>`
