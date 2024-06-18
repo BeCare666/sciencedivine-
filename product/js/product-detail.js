@@ -3,13 +3,13 @@ const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get("id");
 // Récupérez une référence à la base de données Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyC757_3YKps1i2b6P1lzAuRg2KaagEozo4",
-    authDomain: "sciencedivine-14b9f.firebaseapp.com",
-    databaseURL: "https://sciencedivine-14b9f-default-rtdb.firebaseio.com",
-    projectId: "sciencedivine-14b9f",
-    storageBucket: "sciencedivine-14b9f.appspot.com",
-    messagingSenderId: "198705230839",
-    appId: "1:198705230839:web:bb8ebb861769cf082df4f2"
+    apiKey: "AIzaSyDYqYOZ_-_kWraQLeGrfYMHtPmd4lzx1pA",
+    authDomain: "sciencedivine-63cc5.firebaseapp.com",
+    databaseURL: "https://sciencedivine-63cc5-default-rtdb.firebaseio.com",
+    projectId: "sciencedivine-63cc5",
+    storageBucket: "sciencedivine-63cc5.appspot.com",
+    messagingSenderId: "771152533345",
+    appId: "1:771152533345:web:f1df06ef31f7d8cb5d5720"
  };
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
